@@ -10,7 +10,7 @@ characters like "newline" or "◌̀" or "🦆" that are hard or impossible to ty
 ```py
 >>> print("hello\nworld")
 hello
-world
+värld
 >>> "A\u0300"
 'À'
 >>> "\N{DUCK}: \"It's quacking time\""
