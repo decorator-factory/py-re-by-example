@@ -1,0 +1,13 @@
+name: Check code snippets
+run-name: Check code snippets
+on: [push]
+jobs:
+  Check-Snippets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Check out repository code"
+        uses: actions/checkout@v4
+      - name: "Print directory contents"
+        run: ls -hal .
+      - name: "Check code snippets"
+        run: python3 check_snippets.py

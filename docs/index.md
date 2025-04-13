@@ -1,5 +1,4 @@
-# A cheatsheet for the `re` module
-
+# Brief documentation for the Python `re` module, with occasional examples
 
 The `re` module provides lets you find patterns in text using _regular expressions_.
 
