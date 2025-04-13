@@ -17,7 +17,7 @@ CODEBLOCK_RE = re.compile(
         -->
     )?
     """,
-    re.DOTALL | re.UNICODE | re.VERBOSE,
+    re.DOTALL | re.VERBOSE,
 )
 
 
