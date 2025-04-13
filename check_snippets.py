@@ -4,10 +4,6 @@ from doctest import DocTestParser, DocTestRunner
 from pathlib import Path
 
 
-import os, pprint
-print(pprint.pprint({**os.environ}))
-
-
 CODEBLOCK_RE = re.compile(
     r"""
     ```py(?:thon)?\n
